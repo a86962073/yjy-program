@@ -1,0 +1,14 @@
+image{
+  width: 500rpx;
+  margin: 100rpx 125rpx
+}
+.jumpbtn{
+  width: 690rpx;
+  margin: 50rpx 30rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  background: #30ACF9;
+  border-radius: 6px;
+  padding: 20rpx 0;
+}

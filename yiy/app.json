@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/register/register",
+    "pages/pay",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乡约武胜",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx0e6ed4f51db9d078",
+    "wx408ea534cb79567e"
+  ]
+}

@@ -1,0 +1,2 @@
+<image src='/utils/images/jump.png' mode="widthFix" ></image>
+<view catchtap='to' class='jumpbtn'>前往第三方小程序进行购买</view>

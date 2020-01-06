@@ -1,0 +1,97 @@
+.code_btn{
+  font-size: 30rpx;
+  color: #30ACF9;
+  position: absolute;
+  right: 20rpx;
+  top: 5rpx;
+  z-index: 100000;
+  line-height: 60px;
+}
+.paynumBox{position: relative}
+.paynumBox .username{
+  padding-right: 200rpx;
+}
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+   background: red;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 45rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 45rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 40rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: #30ACF9;
+      border:none;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+.radioGroup{
+  font-size: 24rpx;
+color: #646464;
+padding: 50rpx 0rpx;
+text-align: center;
+height: 130rpx;
+box-sizing: border-box;
+
+}
+.title{
+  font-size: 50rpx;
+  color: #323232;
+  font-weight:400;
+  letter-spacing: -1.2rpx;
+}
+.body{
+  padding:70rpx;
+}
+.paynumBox  .username{
+  font-size: 30rpx;
+  letter-spacing: 0.72rpx;
+  padding: 25rpx 0;
+}
+.paynumBox input{
+   margin-top:30rpx;
+  font-size: 30rpx;
+  letter-spacing: 0.72rpx;
+  padding: 25rpx 0;
+}
+input{
+  border-bottom: 1rpx solid #cccccc
+}
+.username::-webkit-input-placeholder{
+  color: #C8C8C8;
+}
+.body .codebtn{
+border-radius: 45rpx;
+font-size: 36rpx;
+color: #FFFFFF;
+letter-spacing: 0.86rpx;
+margin-top:50rpx; 
+height: 80rpx;
+text-align: center;
+line-height: 80rpx;
+background: #30ACF9
+}
+
+.findpwd{
+  font-size: 28rpx;
+  color: #949494;
+  letter-spacing: -0.31px;
+  text-align: left;
+  margin-top:23rpx;
+    display: inline-block
+}
+.toRegister{
+  font-size: 28rpx;
+  color: #949494;
+  letter-spacing: -0.31px;
+  float: right;
+  margin-top:23rpx ;
+      display: inline-block
+}
+.findpwd text{
+  color: #F76B24;
+}
